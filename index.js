@@ -4,7 +4,7 @@ const app = express();
 // Middleware to parse JSON bodies
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://bjaj-frontend.vercel.app/',
     credentials: true
   }));
 
